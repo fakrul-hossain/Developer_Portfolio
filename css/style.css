@@ -9,7 +9,7 @@ body{
     font-family: "Azeret Mono", monospace;
     
 }
-nav,.web-development,.inspiration,.current-target,.support{
+nav,.web-development,.inspiration,.current-target,.support,.footer{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -314,3 +314,27 @@ text-decoration-line: underline;
     background: rgb(255, 255, 255);
 }
 /* support css end */
+/* footer start */
+footer{
+    margin-top: 150px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.links{
+    text-decoration: none;
+    font-size: 60px;
+}
+/* footer end */
