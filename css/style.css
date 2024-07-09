@@ -135,6 +135,9 @@ nav>h1{
 .web-dev2{
     margin-top: 32px;
     margin-bottom: 32px;
+    border-radius: 16px;
+
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .web-dev-cont{
     text-align: start;
@@ -267,7 +270,7 @@ text-decoration-line: underline;
 
     margin-top: 150px;
     text-align: center;
-    background-image: url(../assets/handshake.jpg);
+    background-image: url(/assets/handshake.jpg);
     border-radius: 16px;
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
     background-position: center;
