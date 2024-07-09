@@ -9,7 +9,7 @@ body{
     font-family: "Azeret Mono", monospace;
     
 }
-nav,.web-development,.inspiration{
+nav,.web-development,.inspiration,.current-target,.support{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -182,14 +182,14 @@ nav>h1{
 .inspiration-content{
     text-align: center;
 }
-.inspiration-title{
+.inspiration-title,.current-target-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
 }
-.inspiration-para{
+.inspiration-para,.current-target-para{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -210,3 +210,107 @@ nav>h1{
     padding: 30px;
 }
 /* inspiration section end */
+/* my current target start */
+.current-target{
+    margin-top: 250px;
+    text-align: center;
+}
+.technology{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.html,.css,.javaScript{
+    border-radius: 16px;
+    padding: 40px;
+    text-align: start;
+}
+.html{
+    background: rgba(255, 76, 30, 0.05);
+}
+.css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.javaScript{
+    background: rgba(255, 223, 0, 0.05);
+}
+.technology-title{
+    margin-top: 30px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.technology-para{
+    margin: 20px 0;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+}
+.technology-button{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-decoration-line: underline;
+}
+/* my current target end */
+/* support css start */
+.support{
+    margin-top: 150px;
+    text-align: center;
+    background-image: url(/assets/handshake.jpg);
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+}
+.support-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.support-content{
+    padding: 64px;
+}
+.support-para{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 23px;
+}
+.support-input{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 40%;
+    height: 57px;
+    border: none;
+}
+::placeholder{
+    padding-left: 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-btn{
+    border: none;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+/* support css end */
