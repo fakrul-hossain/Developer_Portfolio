@@ -270,7 +270,7 @@ text-decoration-line: underline;
 
     margin-top: 150px;
     text-align: center;
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     border-radius: 16px;
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
     background-position: center;
