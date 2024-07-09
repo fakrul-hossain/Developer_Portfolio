@@ -53,7 +53,7 @@ nav>h1{
 }
 /* banner css start */
 .banner{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -264,11 +264,13 @@ text-decoration-line: underline;
 /* my current target end */
 /* support css start */
 .support{
+
     margin-top: 150px;
     text-align: center;
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     border-radius: 16px;
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background-position: center;
 }
 .support-title{
     color: rgb(255, 255, 255);
@@ -278,6 +280,7 @@ text-decoration-line: underline;
 }
 .support-content{
     padding: 64px;
+    
 }
 .support-para{
     color: rgb(255, 255, 255);
@@ -302,9 +305,16 @@ text-decoration-line: underline;
     font-size: 16px;
     font-weight: 400;
 }
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .support-btn{
     border: none;
-    padding: 17px 20px 17px 20px;
+    /* padding: 17px 17px 17px 17px; */
+    margin-left: 16px;
+    padding: 15px 25px;
     border-radius: 8px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
