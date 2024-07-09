@@ -9,7 +9,7 @@ body{
     font-family: "Azeret Mono", monospace;
     
 }
-nav,.web-development{
+nav,.web-development,.inspiration{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -173,3 +173,26 @@ nav>h1{
     background-color: rgb(13, 19, 33);
 }
 /* web development css end */
+/* inspiration section start */
+.inspiration{
+    margin-top: 90px;
+}
+.inspiration-content{
+    text-align: center;
+}
+.inspiration-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.inspiration-para{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+/* inspiration section end */
